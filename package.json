@@ -11,6 +11,7 @@
   },
   "name": "coolfire-web",
   "scripts": {
+    "start": "docker-compose up --build",
     "admin": "yarn workspace admin",
     "core": "yarn workspace core",
     "signup": "yarn workspace signup"
