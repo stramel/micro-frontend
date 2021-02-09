@@ -1,0 +1,5 @@
+{
+  "packages": ["core", "admin", "signup", "libs/*"],
+  "version": "independent",
+  "npmClient": "yarn"
+}

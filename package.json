@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "core",
+    "admin",
+    "signup",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "name": "coolfire-web",
+  "scripts": {
+    "admin": "yarn workspace admin",
+    "core": "yarn workspace core",
+    "signup": "yarn workspace signup"
+  }
+}
