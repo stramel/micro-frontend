@@ -2,7 +2,7 @@ const { join } = require("path");
 const workspace = join(__dirname, "..");
 
 module.exports = {
-  basePath: process.env.NODE_ENV === "production" ? "/admin" : undefined,
+  basePath: process.env.BASE_PATH,
   i18n: {
     locales: ["en-US"],
     defaultLocale: "en-US",
