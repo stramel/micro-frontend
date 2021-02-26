@@ -44,3 +44,5 @@ I'm looking to simplify and improve this part of the setup.
 You can customize the port and hostname by using their respective environment variables, `PORT` and `HOSTNAME`. (ie. `PORT=3000 yarn admin dev` or `HOSTNAME=qa.localhost yarn admin dev`)
 
 This provides some interesting oppurtunities to easily switch between proxies easily.
+
+**NOTE:** I had to remove `HOSTNAME` because it kept trying to bind to something else. However, you can still alias to use `qa.localhost` and `dev.localhost` as `localhost`.

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "debug": "NODE_OPTIONS='--inspect' next dev -p ${PORT-8001} -H ${HOSTNAME-127.0.0.1}",
-    "dev": "next dev -p ${PORT-8001} -H ${HOSTNAME-127.0.0.1}",
+    "debug": "NODE_OPTIONS='--inspect' next dev -p ${PORT-8001}",
+    "dev": "next dev -p ${PORT-8001}",
     "build": "next build",
     "start": "next start"
   },
