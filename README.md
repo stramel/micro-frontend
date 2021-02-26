@@ -32,7 +32,7 @@ Lerna simplifies our CI build process by allowing us to only build what is neces
 You can spin up 3 terminals:
 
 1. `yarn start` - Spins up a reverse proxy nginx instance using Docker Compose
-2. `BASEPATH=/admin yarn admin dev` - Spins up a dev instance of admin on `/admin`
+2. `BASE_PATH=/admin yarn admin dev` - Spins up a dev instance of admin on `/admin`
 3. `yarn core dev` - Spins up a dev instance of core on `/`
 
 Now you can just navigate to `http://localhost` for core and `http://localhost/admin` for admin.
